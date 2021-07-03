@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/all.css">
+     </head> 
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/movie camera logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        
+    </section>
+   <!------- about us contact --------->
+    
+    <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1></h1>We are the world's largest movie club
+        <p>No better place to meet new people. It’s an ideal place to build new friendships and make movie appreciation. We bring the networking and social life to you. One of the things that sets us apart is our friendly and welcoming members.</p>
+        <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+        <img src="images/Movie%20Appreciation.jpg">
+        </div>
+    </div>
+    </section>
+    
+  <!------ Footer ------>
+    
+    <section class="footer">
+      <h4>About Us</h4>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-youtube-square"></i>
+            <i class="fab fa-discord"></i>
+        </div>
+        <p>Made with<i class="fas fa-tools"></i> by Donald &amp; Brian</p>
+    </section>
+    
+    
+  <!------JavaScript for Toggle Menu------>
+    <script>
+    
+       var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
+
+
+</body>
+</html>
+
+    

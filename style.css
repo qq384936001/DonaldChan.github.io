@@ -168,23 +168,23 @@ h3{
     }
 }
 
-/*----- campus -----*/
+/*----- Clubs -----*/
 
-.campus{
+.clubs{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.campus-col{
+.clubs-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.campus-col img{
+.clubs-col img{
     width: 100%;
    display: block;
 }
@@ -331,4 +331,54 @@ h3{
 }
 .fa-tools{
     color:#5959FF;
+}
+
+/*------ about us page ------*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Matrix.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    margin-top: 50畀埋英文簡介px;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;  
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.blue-btn{
+    border: 1px solid #5959FF;
+    background: transparent;
+    color: #5959FF;
+}
+.blue-btn:hover{
+    color: #fff;
+}
+.video{
+    width: 400px;
+    height: 400px;
 }
