@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-    </head> 
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title>My Website</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/all.css">
+     </head> 
 <body>
     
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/movie camera logo.png"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
@@ -23,6 +24,7 @@
                 <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
              <h1>World's Biggest University</h1>
@@ -31,7 +33,70 @@
         </div>
         
     </section>
-
+    
+    <!------ rule ------>
+    
+    <section class="rule">
+        <h1>Course we offer</h1>
+        <p>Lorem ips sdpis apdiapd asdpi</p>
+        
+        <div class="row">
+        <div class="rule-col">
+            <h3>Rule 1</h3>
+            <p>a set of classes or a plan of study on a particular subject, usually leading to an exam or…</p>
+            </div>
+            <div class="rule-col">
+            <h3>Rule 2</h3>
+            <p>a set of classes or a plan of study on a particular subject, usually leading to an exam or…</p>
+            </div>
+            <div class="rule-col">
+            <h3>Rule 3</h3>
+            <p>a set of classes or a plan of study on a particular subject, usually leading to an exam or…</p>
+            </div>
+        </div>
+    </section>
+   <!----- campus ----->
+    
+    <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>a set of classes or a plan of study on a particular.</p>
+        
+        <div class="row">
+          <div class="campus-col">
+               <img src="images/london.png">
+              <div class="layer">
+               <h3>LONDON</h3>
+            </div>
+            </div>
+            <div class="campus-col">
+               <img src="images/newyork.png">
+              <div class="layer">
+               <h3>NEW TORK</h3>
+            </div>
+                </div>
+            <div class="campus-col">
+               <img src="images/washington.png">
+              <div class="layer">
+               <h3>WASHINGTON</h3>
+            </div>
+            </div>
+            </div>
+    </section>
+    
+  <!------JavaScript for Toggle Menu------>
+    <script>
+    
+       var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
 
 
 </body>
