@@ -291,7 +291,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/lig.png);
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -369,6 +369,9 @@ h3{
 .about-col p{
     padding: 15px 0 25px;
 }
+.about-col h3{
+    text-align: left;
+}
 
 .blue-btn{
     border: 1px solid #5959FF;
@@ -378,10 +381,7 @@ h3{
 .blue-btn:hover{
     color: #fff;
 }
-.video{
-    width: 400px;
-    height: 400px;
-}
+
 /* Dropdown Button */
 .dropbtn {
   color: white;
